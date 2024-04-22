@@ -1,0 +1,73 @@
+.ft{
+  background-color: rgba(137, 191, 80, 1);
+  color: white;
+}
+.fcp1{
+font-size: 220%;
+line-height: 38.4px;
+font-family: Montserrat;
+}
+.fcp2{
+  font-size: 100%;
+  font-family: Roboto;
+}
+.fcp3{
+  font-size: 120%;
+  font-family: Montserrat;
+}
+.secrow{
+  font-family: Inter;
+}
+.c3p1{
+  font-family: Inter;
+  font-size: 220%;
+}
+.cprow{
+  font-family: Montserrat;
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .custom-right-align-tablet {
+   
+    position: relative;
+    left: 15%;
+  }
+}
+@media (max-width: 767px) {
+  .custom-right-align-mobile {
+   
+    position: relative;
+    right: 25%;
+   
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .custom-image-align-tablet {
+   
+    position: relative;
+    right: 35%;
+    top: 55%;
+  }
+}
+.divimg{
+  position: relative;
+  top: 27%;
+}
+@media (min-width: 850px) and (max-width:1450px) {
+  .hr-in-desktop, .paragraph {
+      display: none;
+  }
+}
+@media (max-width: 991px) {
+  .privacypolicy-align,.second-paragraph {
+   
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .line-spacing-mobile {
+   
+   line-height: 38px;
+   
+  }
+}
